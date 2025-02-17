@@ -8,21 +8,21 @@ import { Contact } from './screens/contact'
 function App() {
   return (
         <Routes>
-          <Route path='/' element={
+          <Route path='/SSG-Task-1/' element={
             <>
               <Navbar/>
               <hr/>
               <Home/>
             </>
           }/>
-          <Route path='/about' element={
+          <Route path='/about/SSG-Task-1/' element={
             <>
               <Navbar/>
               <hr/>
               <About/>
             </>
           }/>
-          <Route path='/contact' element={
+          <Route path='/contact/SSG-Task-1/' element={
             <>
               <Navbar/>
               <hr/>
